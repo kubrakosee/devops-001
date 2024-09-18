@@ -37,15 +37,15 @@ docker build  --build-arg JAR_FILE=target/devops-001-hello-1.0.2.jar   --tag    
 ```
 ### ============= kendi projemizi Docker image'den container haline çevimek =============
 ```
-docker run     -it     -d     -p 8081:8080     --name my-app1      kubrakosee/devops-001-hello
+docker run     -it     -d     -p 8081:5757     --name my-app1      kubrakosee/devops-001-hello
 
-docker run     -it     -d     -p 8082:8080     --name my-app2      kubrakosee/devops-001-hello
+docker run     -it     -d     -p 8082:5757     --name my-app2      kubrakosee/devops-001-hello
 
-docker run     -it     -d     -p 8083:8080     --name my-app3      kubrakosee/devops-001-hello:v001
+docker run     -it     -d     -p 8083:5757     --name my-app3      kubrakosee/devops-001-hello:v001
 
-docker run     -it     -d     -p 8084:8080     --name my-app4      kubrakosee/devops-001-hello:v002
+docker run     -it     -d     -p 8084:5757     --name my-app4      kubrakosee/devops-001-hello:v002
 
-docker run     -it     -d     -p 8085:8080     --name my-app5      kubrakosee/devops-001-hello:latest
+docker run     -it     -d     -p 8085:5757     --name my-app5      kubrakosee/devops-001-hello:latest
 ```
 ### ============= Docker Hub'dan image çekmek =============
 ```
