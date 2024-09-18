@@ -33,6 +33,6 @@ docker build  --build-arg JAR_FILE=target/devops-001-hello-1.0.2-SNAPSHOT.jar   
 ```
 
 ```
-docker build  --build-arg JAR_FILE=target/devops-001-hello-1.0.2.jar   --tag    mimaraslan/devops-001-hello:latest   .
+docker build  --build-arg JAR_FILE=target/devops-001-hello-1.0.2.jar   --tag    kubrakosee/devops-001-hello:latest   .
 ```
 
