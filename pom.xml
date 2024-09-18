@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.kubrakosee</groupId>
 	<artifactId>devops-001-hello</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>devops-001</name>
 	<description>devops-001</description>
 	<url/>

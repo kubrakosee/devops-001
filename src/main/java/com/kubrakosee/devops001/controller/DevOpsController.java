@@ -18,8 +18,8 @@ public class DevOpsController {
         return "Hello World:"+new Date();
     }
     //HTTPS://LOCALHOST:8080/Info
-    @GetMapping("/Info")
-    public String devopsInfo() {
-        return "Info:"+new Date();
+    @GetMapping("/info")
+    public String info() {
+        return " DEVOPS INFO:"+new Date();
     }
 }

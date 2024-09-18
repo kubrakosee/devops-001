@@ -15,6 +15,6 @@ CMD apt-get upgrade -y
 #iç portu sabitlemek için bunu sabitlemen lazım önemli
 EXPOSE 5757
 #uygulamanın çalışacağı komut
-ENTRYPOINT ["java","-jar","devops-001-app.jar"]
+ENTRYPOINT ["java","-jar","devops-hello-app.jar"]
 
 
