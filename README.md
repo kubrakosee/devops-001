@@ -23,3 +23,8 @@ docker run  --name my-postgres   -p 9999:5432  -e POSTGRES_PASSWORD=123456789  -
 ```
 docker run  --name my-mysql      -p 9990:3306  -e MYSQL_ROOT_PASSWORD=123456789 -d  mysql
 ```
+### ============= kendi projemizi Docker image haline çevimek =============
+
+'''
+docker build  --build-arg JAR_FILE=target/devops-001-hello-0.0.1-SNAPSHOT.jar   --tag    kubrakosee/devops-001-hello:v001   .
+'''
